@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Roboto;
+  src: url("fonts/Roboto-Regular.ttf");
+}
+
+.search-item {
+  list-style: none;
+  background: rgb(227, 227, 227);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Roboto;
+  color: black;
+  background: rgb(196, 196, 196);
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.search-field {
+  height: 61px;
+  font-size: 48px;
+  line-height: 56px;
+  border: none;
+}
+
+.search-list {
+  padding: 0;
+  margin: 0;
+  height: 300px;
+}
+
+.search-item {
+  list-style: none;
+  background: rgb(227, 227, 227);
+  font-size: 30px;
+  padding-left: 13px;
+  padding-bottom: 9px;
+  border: 2px solid black
+}
+
+.search-item:hover {
+  background: rgb(101, 205, 249);
+  cursor: pointer;
+}
+
+.added {
+  background: rgb(226, 123, 235);
+}
+
+.added__element {
+  border: 1px solid rgb(0, 0, 0);
+font-size: 24px;
+line-height: 28px;
+padding: 8px 16px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.btn-close {
+  background-image: url('img/pngwing.png');
+  background-color: transparent;
+  background-size: contain;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+}
